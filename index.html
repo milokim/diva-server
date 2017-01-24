@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DIVA - Automated testing system with display capture</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Custom styles for this template -->
+    <link href="css/navbar.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><b>D I V A</b></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li>&nbsp;</li>
+            <li><a href="howitworks.html">How it works</a></li>
+            <li><a href="examples.html">Examples</a></li>
+            <li><a href="examples.html">Github</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <div class="page-header"></div>
+
+    <div class="container theme-showcase" role="main">
+      <div class="header">
+        <img src="diva.png" />
+        <div class="jumbotron">
+          <h2><b>DI</b>splay testing & <b>V</b>alidation <b>A</b>rchitecture</h2>
+          <h3>It's an automated testing system with display capture. Just try it now!</h3>
+        </div>
+      </div>
+      <div align="center">
+        <div class="dropdown">
+          <button class="btn btn-default btn-lg dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          Choose a test case
+          <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="diva_request.php?id=1">Boot test on NanoPi M1</a></li>
+            <li><a href="diva_request.php?id=2">GUI test on NanoPi M1</a></li>
+            <li><a href="diva_request.php?id=3">OPENGL ES2 test on NanoPi M1</a></li>
+          </ul>
+        </div>
+      </div>
+    </div> <!-- /container -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
