@@ -17,6 +17,11 @@ DIVA server interacts with a user, target device and display capture board.
                         			               v
                                 			diva_result.php
 
+## Features
+- Bootstrap for the frontend design
+- Socket communication with the target device and RPi 2 + PiCapture board
+- Generate the test result page
+
 ## How to deploy diva-server
 1. Install apache webserver
 2. Copy diva-server files under /var/www/html/
